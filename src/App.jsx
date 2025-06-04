@@ -1,6 +1,7 @@
 import React from 'react'
 import EjemploComponente from './components/EjemploComponente/EjemploComponente'
 import Contador from './Contador/Contador'
+import Mensaje from './Mensaje/Mensaje'
 
 
 //Components
@@ -14,6 +15,7 @@ const App = () => {
     <>
       {/* <EjemploComponente/> */}
       <Contador/>
+      <Mensaje/>
     </>
   )
 }

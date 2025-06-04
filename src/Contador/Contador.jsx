@@ -7,12 +7,18 @@ const Contador = () => {
 
   //Funciones auxiliares
 
+  let stock = 10;
+
   const incrementar = () => {
-    setContador (contador + 1);
+    if (contador<10){
+      setContador (contador + 1);
+    }
   }
 
   const decrementar = () => {
-    setContador (contador - 1);
+    if (contador>0){
+          setContador (contador - 1);
+    }
   }
 
   return (
